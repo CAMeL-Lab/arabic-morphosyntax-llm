@@ -1,0 +1,47 @@
+version: 1
+models:
+  llama4:
+    display_name: Llama 4 Scout
+    provider: vllm
+    model_id: meta-llama/Llama-4-Scout-17B-16E-Instruct
+    base_url: http://localhost:8000/v1
+    api_key_env: VLLM_API_KEY
+    generation:
+      temperature: 0.0
+      seed: 0
+      max_output_tokens: 32768
+
+  qwen3:
+    display_name: Qwen3-Next-80B-A3B-Thinking
+    provider: vllm
+    model_id: Qwen/Qwen3-Next-80B-A3B-Thinking
+    base_url: http://localhost:8000/v1
+    api_key_env: VLLM_API_KEY
+    generation:
+      temperature: 0.0
+      seed: 0
+      max_output_tokens: 65536
+    provider_options:
+      chat_template_kwargs:
+        enable_thinking: true
+
+  gemini3:
+    display_name: Gemini 3 Flash
+    provider: gemini
+    model_id: gemini-3-flash-preview
+    api_key_env: GEMINI_API_KEY
+    generation:
+      temperature: null
+      seed: null
+      max_output_tokens: null
+
+  gpt5_2:
+    display_name: GPT-5.2
+    provider: openai_responses
+    model_id: gpt-5.2-2025-12-11
+    api_key_env: OPENAI_API_KEY
+    generation:
+      temperature: null
+      seed: null
+      max_output_tokens: null
+      reasoning_effort: none

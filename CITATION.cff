@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the EMNLP 2026 paper."
+title: "Arabic Morphosyntactic Tagging and Dependency Parsing with Large Language Models"
+type: software
+version: 0.1.0
+url: "https://github.com/CAMeL-Lab/arabic-morphosyntax-llm"
+authors:
+  - family-names: Adel
+    given-names: Mohamed
+  - family-names: Alhafni
+    given-names: Bashar
+  - family-names: Habash
+    given-names: Nizar
+preferred-citation:
+  type: conference-paper
+  title: "Arabic Morphosyntactic Tagging and Dependency Parsing with Large Language Models"
+  authors:
+    - family-names: Adel
+      given-names: Mohamed
+    - family-names: Alhafni
+      given-names: Bashar
+    - family-names: Habash
+      given-names: Nizar
+  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)"
+  conference:
+    name: "2026 Conference on Empirical Methods in Natural Language Processing"
+    location: "Budapest, Hungary"
+    city: Budapest
+    country: HU
+  year: 2026
+  url: "https://arxiv.org/abs/2603.16718"

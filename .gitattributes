@@ -1,0 +1,2 @@
+# The experiment prompt text is copied verbatim, including significant spaces.
+src/arabic_morphosyntax_llm/prompts/*.txt -whitespace

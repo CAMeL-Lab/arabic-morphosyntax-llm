@@ -1,0 +1,3 @@
+# Full paper benchmark environment. vLLM runs on supported Linux GPU hosts.
+-e .[all,retrieval]
+vllm; sys_platform == "linux" and platform_machine == "x86_64"
